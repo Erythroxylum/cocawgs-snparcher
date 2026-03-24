@@ -1,0 +1,17 @@
+# Large data / outputs
+*.fastq
+*.fq
+*.bam
+*.vcf
+*.gz
+*.log
+
+# Snakemake
+.snakemake/
+snakemake-conda/
+
+# Conda / envs
+*.tar.bz2
+
+# OS / misc
+.DS_Store
