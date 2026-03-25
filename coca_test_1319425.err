@@ -1,0 +1,4 @@
+Using profile /n/home08/dwhite/cocawgs-snparcher/workflow-profiles/default for setting default command line arguments.
+/n/home08/dwhite/miniforge3/envs/snparcher/lib/python3.11/site-packages/snakemake/rules.py:1111: RuntimeWarning: coroutine 'InputFiles._predicated_size_files.<locals>.sizes' was never awaited
+  return Resource(val.name, TBDString())
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
