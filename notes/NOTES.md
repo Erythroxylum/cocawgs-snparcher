@@ -24,30 +24,7 @@ Notes on rsync usage
 All FASTQ files are stored in:
 /n/netscratch/davis_lab/Everyone/dwhite/cocawgs/all_cocawgs_fastqs/
 
-
 ## 2026-03-24
-
-### Git / reproducibility setup
-- Created analysis directory on FASRC:
-  `/n/home08/dwhite/cocawgs-snparcher`
-- Initialized local git repository with:
-  `git init`
-- Added initial project files:
-  - `.gitignore`
-  - `README.md`
-  - `envs/snparcher.yaml`
-  - `notes/NOTES.md`
-  - `scripts/run_snparcher.slurm`
-- Made initial commit:
-  `Initial commit: snpArcher analysis framework (configs, scripts, env)`
-
-### GitHub setup
-- Confirmed SSH authentication to GitHub is working from FASRC.
-- Set git remote for GitHub repo:
-  `git@github.com:Erythroxylum/cocawgs-snparcher.git`
-- Renamed default branch from `master` to `main`.
-- Resolved mismatch with remote history caused by GitHub license file.
-- Successfully pushed local repository to GitHub.
 
 ### Repository purpose
 This repository will serve as the reproducibility/provenance repo for Coca WGS analyses:
